@@ -27,11 +27,11 @@
 3. Изменится структура проекта
 ``` shell
 cian-parser/
-├── parse_offers.py       # основной скрипт
-├── offers.xlsx           # файл, загружаемый вручную с cian.ru
-├── offers_cleaned.csv    # результат в CSV
-├── offers.db             # база данных SQLite
-└── README.md             # описание проекта
+├── main.py       # основной скрипт
+├── offers.xlsx   # файл, загружаемый вручную с cian.ru
+├── offers.csv    # + файл, результат в CSV
+├── offers.db     # + файл, база данных SQLite
+└── README.md     # описание проекта
 ```
 
 4. Используйте CSV или SQLite согласно методическим указаниям НИР. 
